@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.container{
+  max-width: 300px;
+  margin: 200px auto;
+  border: 1px solid #000;
+  height: 350px;
+  background-color: #c784f5;
+h1{
+  margin: 10px;
+}
+}
+.card{
+  color: #fff;
+  text-align: center;
+  padding: 10px 
+  
+}
+.card input{
+  border-radius: 25px;
+  padding: 10px; 
+  margin: 12px;
+  background-color: #c784f5;
+  font-size: bold;
+  
+}
+.card input[type="login"]{
+  background-color: white;
+}
+.form-group-3 a {
+  color: #fff;
+  margin: 8px;
+  text-decoration: none;
+}
+.form input::placeholder{
+color:#fff;;
+}
+.card .form-group-3{
+  display: flex;
+  justify-content:space-between;
+
+}
+ .card .form-group-3 input{
+  margin-right: 5px;
+}
+.card .form-group-4 p a {
+
+text-decoration: none;
+color: #fff;
+padding: 5px;
+
+} 
+.form i {
+  position: relative;
+  right: 40px;
+
+}
+.btn{
+  width: 80%;
+  height: 35px;
+  border-radius:15px;
+  background-color: #fff;
+  margin: 15px;
+}
+.form a[href]:hover{
+  text-decoration: underline;
+
+  }
+
