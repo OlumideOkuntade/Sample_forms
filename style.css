@@ -1,8 +1,7 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  
 }
 .container{
   max-width: 300px;
@@ -10,15 +9,13 @@
   border: 1px solid #000;
   height: 350px;
   background-color: #c784f5;
-h1{
-  margin: 10px;
 }
+.card h1{
+  margin: 10px 0px;
 }
 .card{
   color: #fff;
   text-align: center;
-  padding: 10px 
-  
 }
 .card input{
   border-radius: 25px;
@@ -26,38 +23,32 @@ h1{
   margin: 12px;
   background-color: #c784f5;
   font-size: bold;
-  
 }
 .card input[type="login"]{
   background-color: white;
 }
 .form-group-3 a {
   color: #fff;
-  margin: 8px;
-  text-decoration: none;
+  text-decoration: none; 
+}
+.form-group-3 label input{
+  margin-top:1px;
 }
 .form input::placeholder{
-color:#fff;;
+  color:#fff;;
 }
-.card .form-group-3{
+.form-group-3{
   display: flex;
-  justify-content:space-between;
-
-}
- .card .form-group-3 input{
-  margin-right: 5px;
+  justify-content:space-around;
 }
 .card .form-group-4 p a {
-
-text-decoration: none;
-color: #fff;
-padding: 5px;
-
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
 } 
 .form i {
   position: relative;
   right: 40px;
-
 }
 .btn{
   width: 80%;
@@ -68,6 +59,5 @@ padding: 5px;
 }
 .form a[href]:hover{
   text-decoration: underline;
-
-  }
+}
 
